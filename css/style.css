@@ -1,0 +1,141 @@
+h1 {
+  justify-content: center;
+  display: flex;
+  margin-top: 55px;
+  font-size: 3em;
+}
+
+p {
+  justify-content: center;
+  display: flex;
+  margin-top: 35px;
+  font-size: 1.5em;
+}
+
+i {
+  padding: 6.5px;
+}
+
+i:hover {
+  opacity: 0.5;
+  transform: rotate(1.0turn);
+  transition: 2s;
+}
+
+.container {
+  padding-top: 50px;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  font-size: 1.2em;
+  margin: 15px auto;
+}
+
+
+.user { 
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  border-radius: 100px; 
+  border: 1px solid rgb(58, 128, 0); 
+  box-shadow: 0 0 7px rgba(135, 196, 130, 0.678);
+}
+
+.user:hover {
+  width: 200px;
+  height: 200px;
+  box-shadow: 0 0 17px rgba(135, 196, 130, 0.678);
+  transition: 1s;
+}
+
+.description {
+  justify-content: center;
+  display: flex;
+  margin: 2px auto;
+  font-size: 1.4em;
+  color:rgba(73, 168, 94, 0.63);
+}
+
+.project {
+  font-size: 1.3em;
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  color: rgb(161, 158, 158);
+}
+
+.project:hover {
+  font-size: 1.4em;
+  color: rgb(187, 183, 183);
+  text-decoration: #fff underline;
+  transition: 0.7s;
+}
+
+.back {
+  color: rgb(161, 160, 160);
+  font-size: 1.2em;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
+.back:hover {
+  text-decoration: #fff underline;
+  transition: 1s;
+}
+
+.img-l {
+  padding: 0;
+  margin: auto;
+}
+
+.img-l:hover {
+  opacity: 0.8;
+  transform: rotate(1.0turn);
+  transition: 2s;
+}
+
+.img-s {
+  padding: 3px;
+  margin: auto;
+  opacity: 0.5;
+}
+
+.img-s:hover {
+  opacity: 0.8;
+  transform: scale(1.5);
+  transition: 1s;
+}
+
+.social-group {
+  justify-content: center;
+  display: flex;
+  padding-top: 15px;
+}
+
+.skills-group {
+  justify-content: center;
+  display: flex;
+  padding-top: 1em;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  font-size: 1.2em;
+  margin: 15px auto;
+}
+
+.img-v {
+  margin: 0;
+  padding: 0;
+}
+
+.img-v:hover {
+  opacity: 0.5;
+  transform: scale(1.2);
+  padding: 2px;
+  transition: 0.5s;
+}
